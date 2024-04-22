@@ -1,0 +1,19 @@
+{
+  "name": "progettowebapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicheleGennari/ProgettoWebApi.git"
+  },
+  "author": "Michele Gennari, Alessandro Capriccioni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicheleGennari/ProgettoWebApi/issues"
+  },
+  "homepage": "https://github.com/MicheleGennari/ProgettoWebApi#readme"
+}

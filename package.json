@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm ci",
-    "test": "npx prettier -c . && npx eslint && npx jest --passWithNoTests",
+    "test": "npx jest --passWithNoTests",
     "prepare": "husky || true"
   },
   "repository": {

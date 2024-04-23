@@ -17,5 +17,6 @@ export default [
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
+  //this has to be the last config on the exported configs array!!
   prettierConfig
 ];

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm ci",
-    "test": "npx jest --passWithNoTests",
+    "test": "npx eslint && npx prettier . -c --log-level log && npx jest --passWithNoTests",
     "prepare": "husky || true"
   },
   "repository": {

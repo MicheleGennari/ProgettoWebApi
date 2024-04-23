@@ -1,5 +1,5 @@
 ARG NODE_VERSION=latest
-FROM ubuntu:${NODE_VERSION}-node
+FROM node:${NODE_VERSION}
 ENV HOSTNAME=http://localhost/ PORT=8080 
 WORKDIR /
 COPY . .

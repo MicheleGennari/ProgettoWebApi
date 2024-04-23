@@ -6,4 +6,3 @@ COPY . .
 RUN npm ci --omit=dev && npm run build --if-present
 ENTRYPOINT [ "node" ]
 CMD [ "index.js" ]
-HEALTHCHECK --interval=5m --timeout=3s CMD curl -f ${HOSTNAME}:${PORT} || exit 1

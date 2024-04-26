@@ -1,1 +1,8 @@
 node_modules
+.husky
+.vscode
+.github
+.lintstagedrc.json
+.prettierrc
+eslint.config.mjs
+README.md

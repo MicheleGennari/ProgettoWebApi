@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npm ci",
     "test": "npx eslint && npx prettier . -c --log-level log && npx jest --passWithNoTests",
-    "prepare": "husky || true"
+    "prepare": "husky || true",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
